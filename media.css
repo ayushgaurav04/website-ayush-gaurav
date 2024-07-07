@@ -1,0 +1,28 @@
+@media(max-width:1300px){
+    .container_1{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:1035px){
+    .mystuffs{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-right: 15vw;
+        padding-top: 2vw;
+        padding-bottom: 3vw;
+    }
+    .options{
+        display: none;
+    }
+    nav{
+        height: 5vh;
+    }
+    .social_media .log i{
+        /* width: 100vw; */
+        font-size: 5vw;
+    }
+}
+    
